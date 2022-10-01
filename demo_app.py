@@ -20,7 +20,7 @@ import pycyphal
 
 # DSDL files are automatically compiled by pycyphal import hook from sources pointed by CYPHAL_PATH env variable.
 
-import sirius_cyber_corp  # This is our vendor-specific root namespace. Custom data types.
+import sirius_cyber_corp # This is our vendor-specific root namespace. Custom data types.
 
 import pycyphal.application  # This module requires the root namespace "uavcan" to be transcompiled.
 
